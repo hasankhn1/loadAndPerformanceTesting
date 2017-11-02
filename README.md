@@ -1,4 +1,4 @@
 # loadAndPerformanceTesting
-clone the repository
-run npm install
+clone the repository \n
+run npm install \n
 run node test.js . it will generate test results
