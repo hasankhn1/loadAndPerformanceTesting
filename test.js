@@ -12,9 +12,9 @@ function statusCallback(error, result, latency) {
 }
 
 var options = {
-    url: 'http://www.google.com', //give any url 
-    maxRequests: 500, //max number of requests to test
-    concurrency : 100,  //max number of concurrency for load testing
+    url: 'https://www.sssports.com/', //give any url 
+    maxRequests: 1000, //max number of requests to test
+    concurrency : 200,  //max number of concurrency for load testing
     statusCallback: statusCallback //callback which call on every sucessfull request
 };
 
