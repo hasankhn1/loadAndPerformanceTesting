@@ -1,5 +1,5 @@
 var loadtest = require('loadtest');
-
+//github account seting
 function statusCallback(error, result, latency) {
     console.log('Total Requests : ', latency.totalRequests);
     console.log('Total Time in Seconds : ', latency.totalTimeSeconds);
